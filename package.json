@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-ts-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:es": "eslint .",
+    "lint:es:fix": "eslint . --fix",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@titicaca/eslint-config-triple": "^5.2.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
